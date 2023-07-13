@@ -1,0 +1,14 @@
+.page-header {
+  position: relative;
+  z-index: 20;
+  margin-bottom: -100px;
+}
+
+.page-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 86px;
+}
+
+

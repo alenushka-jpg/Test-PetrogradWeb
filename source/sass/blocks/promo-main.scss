@@ -1,0 +1,64 @@
+.promo-main {
+  background-color: $parchment-paper;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $parchment-paper;
+  background-image: linear-gradient(96.3deg, $parchment-paper 69%, $fiery-rose 69%);
+}
+
+.promo-main__container {
+  position: relative;
+  padding-top: 198px;
+  padding-left: 51px;
+  padding-bottom: 183px;
+}
+
+.promo-main__tagline {
+  padding-left: 9px;
+  color: $fiery-rose;
+  font-family: inherit;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.promo-main__title {
+  margin-top: 0;
+  margin-bottom: 48px;
+  color: $midnight-ocean;
+  font-family: $secondary-font;
+  font-size: 100px;
+  line-height: 150px;
+  letter-spacing: 2px;
+}
+
+.promo-main__button {
+  display: flex;
+  padding: 15px 51px 11px;
+  margin-left: 15px;
+  letter-spacing: .8px;
+  transform: skew(-15deg);
+  font-style: normal;
+}
+
+.promo-main__button span {
+  transform: skew(15deg);
+  font-style: normal;
+}
+
+.promo-main__img,
+.promo-main__graphic {
+  width: 871px;
+  height: 732px;
+}
+
+.promo-main__graphic {
+  position: absolute;
+  top: 82px;
+  right: 13px;
+}
+
+.promo__picture {
+  display: block;
+}

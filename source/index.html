@@ -10,31 +10,44 @@
 <body>
   <header class="page-header">
     <div class="page-header__container container">
-      <img src="./img/logo.svg" width="190" height="46" alt="">
+      <a href="#" class="page-header__logo">
+        <img src="./img/logo.svg" width="190" height="46" alt="">
+      </a>
+      <nav class="navigation">
+        <button class="navigation__burger" type="button">
+          <div>
+            <span class="visually-hidden">Открыть навигацию</span>
+            <img src="./img/menu-burger.svg" width="30" height="9" alt="">
+          </div>
+          <div>
+            <span class="visually-hidden">Закрыть навигацию</span>
+          </div>
+        </button>
+        <ul class="navigation__ul">
+          <li class="navigation__li">
+            <a href="" class="navigation__link">Преимущества</a>
+          </li>
+          <li class="navigation__li">
+            <a href="" class="navigation__link">Видео</a>
+          </li>
+          <li class="navigation__li">
+            <a href="" class="navigation__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <nav class="navigation">
-      <ul class="navigation__ul">
-        <li class="navigation__li">
-          <a href="" class="navigation__link">Преимущества</a>
-        </li>
-        <li class="navigation__li">
-          <a href="" class="navigation__link">Видео</a>
-        </li>
-        <li class="navigation__li">
-          <a href="" class="navigation__link">Контакты</a>
-        </li>
-      </ul>
-    </nav>
   </header>
   <main class="page-main">
     <section class="promo-main">
       <div class="promo-main__container container">
         <span class="promo-main__tagline">Быстрый. Дерзкий</span>
-        <h1 class="promo-main_title">Велосипед советский</h1>
-        <button class="promo-main_button" type="button">Заказать</button>
-        <div class="promo__graphic">
-          <picture class="promo__picture">
-            <img class="promo__img" src="./img/bike.png" srcset="./img/bike@2x.png" width="598" height="712" alt="Привлекательный ярко-красный трёхколесный велосипед">
+        <h1 class="promo-main__title">Велосипед советский</h1>
+        <button class="promo-main__button button" type="button">
+          <span>Заказать</span>
+        </button>
+        <div class="promo-main__graphic">
+          <picture class="promo-main__picture">
+            <img class="promo-main__img" src="./img/bike.png" srcset="./img/bike@2x.png" width="871" height="732" alt="Привлекательный ярко-красный трёхколесный велосипед">
           </picture>
         </div>
       </div>

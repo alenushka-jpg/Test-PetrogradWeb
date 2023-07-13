@@ -1,0 +1,29 @@
+.navigation__ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 8px 0 0;
+}
+
+.navigation__li {
+  margin-right: 41px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.navigation__link {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: $midnight-ocean;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.navigation__burger {
+  display: none;
+}

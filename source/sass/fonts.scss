@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Soviet";
+  font-family: "Soviet Font";
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: local("Soviet"),
-    url("./../fonts/soviet-font.woff2") format("woff2"),
-    url("./../fonts/soviet-font.woff") format("woff");
+  src: url('../fonts/SovietFont.ttf');
+    // url("../fonts/Soviet-Font.woff2") format("woff2"),
+    // url("../fonts/Soviet-Font.woff2.woff") format("woff");
 }
 
 @font-face {
@@ -13,9 +13,9 @@
   font-weight: 700;
   font-style: italic;
   font-display: swap;
-  src: local("Commons Trial"),
-    url("./../fonts/commons-trial-bold-italic.woff2") format("woff2"),
-    url("./../fonts/commons-trial-bold-italic.woff") format("woff");
+  src: url('../fonts/TTCommons-Trial-Bold-Italic.otf');
+    // url("../fonts/Commons-Trial-Bold-Italic.woff2") format("woff2"),
+    // url("../fonts/Commons-Trial-Bold-Italic.woff") format("woff");
 }
 
 @font-face {
@@ -23,7 +23,17 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: local("Commons Trial"),
-    url("./../fonts/commons-trial-regular.woff2") format("woff2"),
-    url("./../fonts/commons-trial-regular.woff") format("woff");
+  src: url('../fonts/TTCommons-Trial-Regular.otf');
+    // url("../fonts/Commons-Trial-Regular.woff2") format("woff2"),
+    // url("../fonts/Commons-Trial-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Commons Trial";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url('../fonts/TTCommons-Trial-Italic.otf');
+    // url("../fonts/Commons-Trial-Italic.woff2") format("woff2"),
+    // url("../fonts/Commons-Trial-Italic.woff") format("woff");
 }

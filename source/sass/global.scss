@@ -33,6 +33,24 @@ img {
   height: auto;
 }
 
+.button {
+  font-family: inherit;
+  background-color: $fiery-rose;
+  color: $soft-snowflake;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  border: none;
+}
+
+.container {
+  max-width: $desktop-width;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
