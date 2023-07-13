@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Soviet";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: local("Soviet"),
+    url("./../fonts/soviet-font.woff2") format("woff2"),
+    url("./../fonts/soviet-font.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Commons Trial";
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src: local("Commons Trial"),
+    url("./../fonts/commons-trial-bold-italic.woff2") format("woff2"),
+    url("./../fonts/commons-trial-bold-italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Commons Trial";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: local("Commons Trial"),
+    url("./../fonts/commons-trial-regular.woff2") format("woff2"),
+    url("./../fonts/commons-trial-regular.woff") format("woff");
+}

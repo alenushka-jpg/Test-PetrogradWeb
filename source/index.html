@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Alyona Sytyakova">
+  <title>Test-PetrogradWeb</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="page-header__container container">
+      <img src="./img/logo.svg" width="190" height="46" alt="">
+    </div>
+    <nav class="navigation">
+      <ul class="navigation__ul">
+        <li class="navigation__li">
+          <a href="" class="navigation__link">Преимущества</a>
+        </li>
+        <li class="navigation__li">
+          <a href="" class="navigation__link">Видео</a>
+        </li>
+        <li class="navigation__li">
+          <a href="" class="navigation__link">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="page-main">
+    <section class="promo-main">
+      <div class="promo-main__container container">
+        <span class="promo-main__tagline">Быстрый. Дерзкий</span>
+        <h1 class="promo-main_title">Велосипед советский</h1>
+        <button class="promo-main_button" type="button">Заказать</button>
+        <div class="promo__graphic">
+          <picture class="promo__picture">
+            <img class="promo__img" src="./img/bike.png" srcset="./img/bike@2x.png" width="598" height="712" alt="Привлекательный ярко-красный трёхколесный велосипед">
+          </picture>
+        </div>
+      </div>
+    </section>
+    <section class="promo-video promo-video--first">
+      <div class="promo-video__container container">
+        <div class="promo-video__player video-player">
+          <video id="player-video" width="320" height="240">
+            <source src="" type="video/webm">
+            <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.webm">link to the video</a> instead.</p>
+          </video>
+          <button type="button" id="player-button">Play</button>
+        </div>
+      </div>
+    </section>
+    <section class="promo-video promo-video--second">
+      <div class="promo-video__container container">
+        <div class="promo-video__player video-player">
+          <picture class="promo__picture">
+            <img class="promo__img" src="./img/video-bike.png" srcset="./img/video-bike@2x.png" width="438" height="584" alt="Привлекательный ярко-красный трёхколесный велосипед">
+          </picture>
+          <button type="button" id="player-button">Play</button>
+        </div>
+      </div>
+    </section>
+    <section class="user-form">
+      <h2 class="user-form__title">Оставить заявку</h2>
+      <form class="user-form__form" action="#" method="POST">
+        <div class="user-form__contacts">
+          <label class="visually-hidden" for="name">Введите Ваше Имя</label>
+          <input maxlength="50" minlength="1" name="name" type="text" id="name" placeholder="Ваше имя" required>
+        </div>
+        <div class="user-form__contacts">
+          <label class="visually-hidden" for="tel">Введите Ваш номер телефона</label>
+          <input maxlength="11" minlength="11" name="tel" type="tel" id="tel" pattern="\+?[0-9\s\-\(\)]+" placeholder="Введите Ваш номер телефона" required>
+        </div>
+        <div class="user-form__check">
+          <input type="checkbox" id="privacy-check" name="privacy-check" required>
+          <p>Нажимая на кнопку «Отправить» вы соглашаетесь с нашей политикой конфиденциальности</p>
+        </div>
+        <button class="user-form__button button" type="submit">Отправить</button>
+      </form>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__slogan">
+      <p>
+        &copy; Свобода. Равенство. Братство
+      </p>
+    </div>
+    <div class="page-footer__copyright copyright">
+      Сделано в
+      <a class="copyright__link" href="#">PetrogradWeb</a>
+    </div>
+  </footer>
+  <script src="./js/script.js" type="module"></script>
+</body>
+</html>
+
+
+
