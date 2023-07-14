@@ -9,6 +9,31 @@
   justify-content: space-between;
   align-items: center;
   min-height: 86px;
+
+  @media (max-width: $mobile-width) {
+    min-height: 61px;
+  }
 }
 
+.page-header__logo {
+  width: 190px;
+  height: 46px;
 
+  @media (max-width: $mobile-width) {
+    width: 125px;
+    height: 30px;
+  }
+}
+
+.page-header__burger {
+  display: none;
+
+  @media (max-width: $tablet-width) {
+    display: flex;
+    width: 30px;
+    height: 15px;
+    padding: 0;
+    border: none;
+    background-color: inherit;
+  }
+}

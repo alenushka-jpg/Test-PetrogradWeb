@@ -11,13 +11,17 @@
   <header class="page-header">
     <div class="page-header__container container">
       <a href="#" class="page-header__logo">
-        <img src="./img/logo.svg" width="190" height="46" alt="">
+        <svg width="190" height="46">
+          <use xlink:href="./img/sprite.svg#logo"></use>
+        </svg>
       </a>
       <nav class="navigation">
-        <button class="navigation__burger" type="button">
+        <button class="page-header__burger" type="button">
           <div>
             <span class="visually-hidden">Открыть навигацию</span>
-            <img src="./img/menu-burger.svg" width="30" height="9" alt="">
+            <svg width="30" height="9">
+              <use xlink:href="./img/sprite.svg#menu-burger"></use>
+            </svg>
           </div>
           <div>
             <span class="visually-hidden">Закрыть навигацию</span>
@@ -45,11 +49,12 @@
         <button class="promo-main__button button" type="button">
           <span>Заказать</span>
         </button>
-        <div class="promo-main__graphic">
-          <picture class="promo-main__picture">
-            <img class="promo-main__img" src="./img/bike.png" srcset="./img/bike@2x.png" width="871" height="732" alt="Привлекательный ярко-красный трёхколесный велосипед">
-          </picture>
-        </div>
+      </div>
+      <div class="promo-main__graphic">
+        <picture class="promo-main__picture">
+          <source media="(max-width: 563px)" srcset="./img/main-bg-mobile.png 1x, ./img/main-bg-mobile@2x.png 2x">
+          <img class="promo-main__img" src="./img/main-bg.png" srcset="./img/main-bg@2x.png" width="871" height="732" alt="Привлекательный ярко-красный трёхколёсный велосипед">
+        </picture>
       </div>
     </section>
     <section class="promo-video promo-video--first">

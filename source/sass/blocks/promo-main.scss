@@ -1,16 +1,76 @@
 .promo-main {
-  background-color: $parchment-paper;
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
+  min-height: 800px;
   background-color: $parchment-paper;
   background-image: linear-gradient(96.3deg, $parchment-paper 69%, $fiery-rose 69%);
+  z-index: -1;
+  overflow: hidden;
+
+  @media (max-width: $desktop-width) {
+    background-image: none;
+  }
+
+  @media (max-width: $tablet-width) {
+    min-height: auto;
+  }
+
+  @media (max-width: $mobile-width) {
+    overflow: inherit;
+  }
 }
 
 .promo-main__container {
-  position: relative;
   padding-top: 198px;
   padding-left: 51px;
-  padding-bottom: 183px;
+  padding-bottom: 184px;
+
+  @media (max-width: $tablet-width) {
+    padding-top: 158px;
+    padding-bottom: 164px;
+  }
+
+  @media (max-width: $mobile-width) {
+    padding-left: 10px;
+    padding-top: 140px;
+    padding-bottom: 450px;
+    text-align: center;
+  }
+}
+
+.promo-main__graphic {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.promo-main__img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 7px;
+  z-index: -1;
+  object-fit: contain;
+
+  @media (max-width: $desktop-width) {
+    object-fit: cover;
+  }
+
+  @media (max-width: $mobile-width) {
+    top: 0;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+.promo-main__picture {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .promo-main__tagline {
@@ -21,6 +81,12 @@
   font-style: italic;
   font-weight: 400;
   line-height: normal;
+
+  @media (max-width: $mobile-width) {
+    margin-bottom: 9px;
+    display: block;
+    font-size: 20px;
+  }
 }
 
 .promo-main__title {
@@ -29,8 +95,28 @@
   color: $midnight-ocean;
   font-family: $secondary-font;
   font-size: 100px;
-  line-height: 150px;
+  line-height: 150%;
   letter-spacing: 2px;
+
+  @media (max-width: $desktop-width) {
+    font-size: 90px;
+  }
+
+  @media (max-width: $tablet-width) {
+    font-size: 65px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 50px;
+  }
+
+  @media (max-width: $mobile-width) {
+    font-size: 40px;
+    line-height: 150%;
+    padding-left: 3px;
+    letter-spacing: 0.8px;
+    margin-bottom: 30px;
+  }
 }
 
 .promo-main__button {
@@ -40,6 +126,11 @@
   letter-spacing: .8px;
   transform: skew(-15deg);
   font-style: normal;
+
+  @media (max-width: $mobile-width) {
+    margin: 0 auto;
+    padding: 14px 49px 7px;
+  }
 }
 
 .promo-main__button span {
@@ -47,17 +138,6 @@
   font-style: normal;
 }
 
-.promo-main__img,
-.promo-main__graphic {
-  width: 871px;
-  height: 732px;
-}
-
-.promo-main__graphic {
-  position: absolute;
-  top: 82px;
-  right: 13px;
-}
 
 .promo__picture {
   display: block;
