@@ -1,0 +1,32 @@
+.background-words__line {
+  display: flex;
+
+  &:first-child {
+    margin-bottom: 50px;
+    padding-left: 450px;
+  }
+}
+
+.background-words__text {
+  margin-right: 37px;
+  font-size: 120px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 3.6px;
+  text-transform: uppercase;
+
+  &:nth-child(2n) {
+    color: $soft-snowflake;
+  }
+
+  &:nth-child(2n+1) {
+    color: transparent;
+    -webkit-text-stroke: 1px $soft-snowflake;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+

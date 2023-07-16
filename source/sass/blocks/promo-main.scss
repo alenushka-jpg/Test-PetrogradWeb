@@ -1,6 +1,7 @@
 .promo-main {
   position: relative;
   min-height: 800px;
+  margin-bottom: -1px;
   background-color: $parchment-paper;
   background-image: linear-gradient(96.3deg, $parchment-paper 69%, $fiery-rose 69%);
   z-index: -1;

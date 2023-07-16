@@ -1,0 +1,182 @@
+.video-player {
+  position: relative;
+  margin: 0 auto;
+  width: 438px;
+  height: 584px;
+}
+
+.video-player__video {
+  display: block;
+  width: 438px;
+  height: 584px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.video-player__button {
+  position: absolute;
+  bottom: -70px;
+  right: -70px;
+  width: 120px;
+  height: 120px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: inherit;
+}
+
+.video-player__icon {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 0;
+}
+
+.simple-arc span {
+  position: absolute;
+  left: 50%;
+  width: 0;
+  bottom: 60%;
+  transform-origin: 0% 100%;
+  padding-bottom: 50%;
+  color: #192632;
+  font-size: 10px;
+  font-family: inherit;
+}
+
+// .simple-arc__0 {
+//   transform: rotate(0deg);
+// }
+// .simple-arc__1 {
+//   transform: rotate(6deg);
+// }
+// .simple-arc__2 {
+//   transform: rotate(12deg);
+// }
+// .simple-arc__3 {
+//   transform: rotate(17deg);
+// }
+// .simple-arc__4 {
+//   transform: rotate(22deg);
+// }
+// .simple-arc__5 {
+//   transform: rotate(28deg);
+// }
+// .simple-arc__6 {
+//   transform: rotate(33deg);
+// }
+// .simple-arc__7 {
+//   transform: rotate(38deg);
+// }
+// .simple-arc__8 {
+//   transform: rotate(44deg);
+// }
+// .simple-arc__9 {
+//   transform: rotate(50deg);
+// }
+// .simple-arc__10 {
+//   transform: rotate(56deg);
+// }
+// .simple-arc__11 {
+//   transform: rotate(62deg);
+// }
+// .simple-arc__12 {
+//   transform: rotate(68deg);
+// }
+// .simple-arc__13 {
+//   transform: rotate(74deg);
+// }
+// .simple-arc__14 {
+//   transform: rotate(80deg);
+// }
+// .simple-arc__15 {
+//   transform: rotate(86deg);
+// }
+
+// .simple-arc__16 {
+//   transform: rotate(92deg);
+// }
+
+// .simple-arc__17 {
+//   transform: rotate(98deg);
+// }
+
+// .simple-arc__18 {
+//   transform: rotate(104deg);
+// }
+// .simple-arc__19 {
+//   transform: rotate(110deg);
+// }
+
+// .simple-arc__20 {
+//   transform: rotate(116deg);
+// }
+
+// .simple-arc__21 {
+//   transform: rotate(122deg);
+// }
+// .simple-arc__22 {
+//   transform: rotate(128deg);
+// }
+// .simple-arc__23 {
+//   transform: rotate(134deg);
+// }
+// .simple-arc__24 {
+//   transform: rotate(140deg);
+// }
+// .simple-arc__25 {
+//   transform: rotate(98deg);
+// }
+// .simple-arc__26 {
+//   transform: rotate(98deg);
+// }
+// .simple-arc__27 {
+//   transform: rotate(98deg);
+// }
+// .simple-arc__28 {
+//   transform: rotate(98deg);
+// }
+// .simple-arc__29 {
+//   transform: rotate(98deg);
+// }
+// .simple-arc__30 {
+//   transform: rotate(98deg);
+// }
+// .simple-arc__31 {
+//   transform: rotate(98deg);
+// }
+// .simple-arc__32 {
+//   transform: rotate(98deg);
+// }
+// .simple-arc__33 {
+//   transform: rotate(98deg);
+// }
+// .simple-arc__34 {
+//   transform: rotate(98deg);
+// }
+// .simple-arc__35 {
+//   transform: rotate(98deg);
+// }
+// .simple-arc__36 {
+//   transform: rotate(98deg);
+// }
+// .simple-arc__37 {
+//   transform: rotate(98deg);
+// }
+// .simple-arc__38 {
+//   transform: rotate(98deg);
+// }
+// .simple-arc__39 {
+//   transform: rotate(98deg);
+// }
+// .simple-arc__40 {
+//   transform: rotate(98deg);
+// }
+// .simple-arc__41 {
+//   transform: rotate(98deg);
+// }
+// .simple-arc__42 {
+//   transform: rotate(98deg);
+// }
+
